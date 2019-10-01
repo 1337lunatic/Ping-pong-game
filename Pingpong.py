@@ -1,12 +1,3 @@
-'''
-Add sounds
-Add a main menu:
-    Fullscreen/Res
-    Volume setting
-    Keybindings
-Player Vs AI
-clean the code up
-'''
 import turtle
 #import mm.py
 
@@ -121,25 +112,3 @@ while True:
     if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor() < paddle_a.ycor() + 40  and ball.ycor() >  paddle_a.ycor() -40):
         ball.setx(-340)
         ball.dx *= -1
-
-
-
-#To-do
-    #prioritised
-        #
-
-
-    #Should get done
-        #Sound Feedback
-        
-        #Score limit
-
-        #Better hitbox on ball/paddle. Not sure which
-        
-        #Better scaling
-
-        
-
-    #Not prioritised
-        #
-            #
